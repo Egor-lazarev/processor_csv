@@ -13,9 +13,9 @@ cd processor_crv/
 **Создать:** python3 -m venv venv  
 **Активировать:** source venv/bin/activate  
 
-**Установить зависимости из файла requirements.txt:**
+**Установить зависимости из файла requirements.txt:**  
 pip install -r requirements.txt  
-**Обновить PIP**
+**Обновить PIP:**  
 python3 -m pip install --upgrade pip  
 
 ## Тесты ##
