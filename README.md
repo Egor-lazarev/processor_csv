@@ -26,5 +26,10 @@ pytest
 pytest --cov=.
 **Общее покрытие тестами составляет - 97%**
 
+**Команды:** 
+python main.py --file products.csv --where 'brand=xiaomi',
+python main.py --file products.csv --aggregate 'rating=max',
+python main.py --file products.csv --where 'brand=xiaomi' --aggregate 'rating=max' (комбинированный)
+
 ## Автор: ##
 _Лазарев Егор Антонович_
