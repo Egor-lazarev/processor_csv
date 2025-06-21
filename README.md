@@ -9,12 +9,13 @@ git clone git@github.com:Egor-lazarev/processor_csv.git
 **Переходим в директорию проекта:**
 cd processor_crv/
 
-**Cоздать и активировать виртуальное окружение:**
-python3 -m venv venv
-source venv/bin/activate
+**Виртуальное окружение:**
+**Создать:** python3 -m venv venv
+**Активировать:** source venv/bin/activate
 
 **Установить зависимости из файла requirements.txt:**
 pip install -r requirements.txt
+**Обновить PIP**
 python3 -m pip install --upgrade pip
 
 ## Тесты ##
