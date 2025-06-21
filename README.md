@@ -28,7 +28,7 @@ pytest --cov=.
 
 ## Управление скриптом ##
 
-**Команды:**  
+**Команды (пример):**  
 python main.py --file products.csv --where 'brand=xiaomi'  
 python main.py --file products.csv --aggregate 'rating=max'  
 python main.py --file products.csv --where 'brand=xiaomi' --aggregate 'rating=max' (комбинированный)  
