@@ -1,0 +1,31 @@
+# Virtual environment
+.env/
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+
+# Python artifacts
+*.py[cod]
+*$py.class
+__pycache__/
+
+# Testing and coverage
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+pytest_cache/
+
+# Environment variables
+.env
+.env.*
+
+# Local development
+.python-version
